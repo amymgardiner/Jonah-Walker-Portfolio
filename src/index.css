@@ -15,3 +15,22 @@ body{
   background: rgb(253, 253, 255, 0.7);
   color: #2D3142
 }
+
+.navbar--link{
+  display: inline-block;
+  position: relative;
+}
+
+.navbar--link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  width: 0%;
+  bottom: 10px;
+  background-color: #62929E;
+}
+
+.navbar--link:hover::before{
+  width: 100%;
+}

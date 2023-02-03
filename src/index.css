@@ -2,18 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  --white: #FDFDFF;
+  --dark-grey: #393D3F;
+  --dark-blue: #2D3142;
+  --medium-blue: #4F5D75;
+  --light-grey: #BFC0C0;
+  --light-blue: #546A7B;
+  --teal: #62929E;
+  --orange: #EF8354;
+  --tan: #C6C5B9;
+}
+
 body{
-  background: #393D3F;
-  color: #FDFDFF;
+  height: 100%;
+  background: var(--dark-grey);
+  color: var(--white);
 }
 
+/* light blue background */
 .site--main_button{
-  background: rgb(84, 106, 123, 0.7);
+  background: rgb(84, 106, 123, 0.7); 
 }
 
+/* white background */
 .site--main_button:hover{
   background: rgb(253, 253, 255, 0.7);
-  color: #2D3142
+  color: var(--dark-blue);
 }
 
 .navbar--link{
@@ -22,15 +37,19 @@ body{
 }
 
 .navbar--link::before {
-  transition: 300ms;
+  transition: 400ms;
   height: 5px;
   content: "";
   position: absolute;
   width: 0%;
   bottom: 10px;
-  background-color: #62929E;
+  background-color: var(--teal);
 }
 
 .navbar--link:hover::before{
   width: 100%;
+}
+
+.main{
+  min-height: 100vh;
 }

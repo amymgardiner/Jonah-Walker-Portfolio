@@ -8,7 +8,6 @@ const Home = () => {
             <Navbar/>
             <div className="flex flex-col items-center justify-center main--body">
 
-                <div className="bg-[#00a6fb] w-9/12 h-0.5"></div>
                 <div className="py-24 my-8 main--body_videos">
                     <div className="flex flex-row justify-center mb-4 space-x-36">
                         <h2 className="text-2xl font-semibold">The Story of 'Tis the Season</h2>
@@ -28,7 +27,7 @@ const Home = () => {
 
                 <div className="bg-[#00a6fb] w-9/12 h-0.5"></div>
                 <div className="py-24 my-8 main--body_videos">
-                    <div className="flex flex-row justify-center mb-4">
+                    <div className="flex flex-row justify-center mb-8">
                         <h2 className="text-5xl font-bold">Reel</h2>
                     </div>
                     <iframe
@@ -40,7 +39,6 @@ const Home = () => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 </div>
-                <div className="bg-[#00a6fb] w-9/12 h-0.5"></div>
 
             </div>
             <Footer/>

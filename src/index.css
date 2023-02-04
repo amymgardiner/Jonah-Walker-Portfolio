@@ -4,31 +4,31 @@
 
 *{
   --white: #FDFDFF;
-  --dark-grey: #393D3F;
-  --dark-grey-blue: #2D3142;
-  --medium-grey-blue: #4F5D75;
+  --dark-grey: #212529;
+  --grey:#393D3F;
   --light-grey: #BFC0C0;
-  --light-grey-blue: #546A7B;
   --bright-blue: #00a6fb;
   --medium-bright-blue: #75d2ff;
   --light-bright-blue: #90e0ef;
+  --blue: #023e8a;
+  --dark-blue: #03045e;
 }
 
 body{
   height: 100%;
-  background: var(--dark-grey);
+  background: var(--grey);
   color: var(--white);
 }
 
 /* light blue background */
 .site--main_button{
-  background: rgb(84, 106, 123, 0.7); 
+  background: rgb(2, 62, 138, 0.7);
 }
 
 /* white background */
 .site--main_button:hover{
   background: rgb(253, 253, 255, 0.7);
-  color: var(--dark-grey-blue);
+  color: var(--dark-blue);
 }
 
 .navbar--link{
@@ -52,5 +52,5 @@ body{
 
 .main--body{
   min-height: 100vh;
-  background: #212529;
+  background: var(--dark-grey);
 }

@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="bg-[#00a6fb] w-9/12 h-0.5"></div>
+                <div className="bg-[#6c757d] w-9/12 h-0.5"></div>
                 <div className="py-24 my-8 main--body_videos">
                     <div className="flex flex-row justify-center mb-8">
                         <h2 className="text-5xl font-bold">Reel</h2>

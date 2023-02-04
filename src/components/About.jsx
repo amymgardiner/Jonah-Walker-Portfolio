@@ -70,100 +70,106 @@ const About = () => {
             <Navbar/>
             <div className="flex flex-row main--body">
                 <img src={JonahImage} className="max-w-[615px] p-4" alt="Jonah Walker with camera"/>
-                <div className="p-8">
-                    <h2 className="text-2xl font-semibold">Lorem ipsum dolor</h2>
-                    <p className="text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
-                </div>
-                <section className="contact">
-      <h1>Contact Me</h1>
-      <div className="contact-div">
-        <form className="contact-form" onSubmit={handleSubmit(onSubmit)}>
-          <div>
-            <label htmlFor="name">Full Name:</label>
-            <input
-              type="text"
-              name="name"
-              {...register('name', {
-                required: {
-                  value: true,
-                  message: 'Please enter your name',
-                },
-                maxLength: {
-                  value: 80,
-                  message: 'Please use 30 characters or less',
-                },
-              })}
-              placeholder="Name"
-            ></input>
-            {errors.name && (
-              <span className="errorMessage">{errors.name.message}</span>
-            )}
-          </div>
-          <div>
-            <label htmlFor="email">Email Address:</label>
-            <input
-              type="email"
-              name="email"
-              {...register('email', {
-                required: true,
-                pattern:
-                  /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
-              })}
-              placeholder="Email address"
-            ></input>
-            {errors.email && (
-              <span className="errorMessage">
-                Please enter a valid email address
-              </span>
-            )}
-          </div>
-          <div>
-            <label htmlFor="name">Subject Line:</label>
-            <input
-              type="text"
-              name="subject"
-              {...register('subject', {
-                required: {
-                  value: true,
-                  message: 'Please enter a subject',
-                },
-                maxLength: {
-                  value: 75,
-                  message: 'Subject cannot exceed 75 characters',
-                },
-              })}
-              placeholder="Subject"
-            ></input>
-            {errors.subject && (
-              <span className="errorMessage">{errors.subject.message}</span>
-            )}
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea
-              rows="5"
-              name="message"
-              {...register('message', {
-                required: true,
-              })}
-              placeholder="Message"
-            ></textarea>
-            {errors.message && (
-              <span className="errorMessage">Please enter a message</span>
-            )}
-          </div>
-          <button
-            data-testid="button"
-            className="submit-btn"
-            disabled={disabled}
-            type="submit"
-          >
-            Submit
-          </button>
-        </form>
-      </div>
-      <ToastContainer />
-    </section>
+                <div className="flex flex-col">
+                    <div className="p-8">
+                        <h2 className="mb-2 text-2xl font-semibold">Lorem ipsum dolor</h2>
+                        <p className="text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
+                    </div>
+                    <section className="p-8">
+                        <h1 className="mb-2 text-xl text-[#90e0ef]">Contact Me</h1>
+                        <div className="about--contact_div">
+                        <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
+                        <div className="flex flex-col">
+                        <label htmlFor="name">Full Name:</label>
+                            <input
+                            type="text"
+                            name="name"
+                            {...register('name', {
+                            required: {
+                            value: true,
+                            message: 'Please enter your name',
+                            },
+                            maxLength: {
+                            value: 80,
+                            message: 'Please use 30 characters or less',
+                            },
+                            })}
+                            placeholder="Name"
+                            className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                            ></input>
+                            {errors.name && (
+                                <span className="errorMessage text-[#BFC0C0] text-base">{errors.name.message}</span>
+                            )}
+                        </div>
+                        <div className="flex flex-col">
+                        <label htmlFor="email">Email Address:</label>
+                            <input
+                            type="email"
+                            name="email"
+                            {...register('email', {
+                            required: true,
+                            pattern:
+                            /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+                            })}
+                            placeholder="Email address"
+                            className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                            ></input>
+                            {errors.email && (
+                                <span className="errorMessage text-[#BFC0C0] text-base">
+                                Please enter a valid email address
+                                </span>
+                            )}
+                        </div>
+                        <div className="flex flex-col">
+                        <label htmlFor="name">Subject Line:</label>
+                            <input
+                            type="text"
+                            name="subject"
+                            {...register('subject', {
+                            required: {
+                                value: true,
+                                message: 'Please enter a subject',
+                            },
+                            maxLength: {
+                            value: 75,
+                            message: 'Subject cannot exceed 75 characters',
+                            },
+                            })}
+                            placeholder="Subject"
+                            className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                            ></input>
+                            {errors.subject && (
+                                <span className="errorMessage text-[#BFC0C0] text-base">{errors.subject.message}</span>
+                            )}
+                        </div>
+                        <div className="flex flex-col">
+                        <label htmlFor="message">Message:</label>
+                            <textarea
+                            rows="5"
+                            name="message"
+                            {...register('message', {
+                                required: true,
+                            })}
+                            placeholder="Message"
+                            className="max-w-[50%] text-[#212529] p-2 rounded-lg"
+                            ></textarea>
+                            {errors.message && (
+                                <span className="errorMessage text-[#BFC0C0] text-base">Please enter a message</span>
+                            )}
+                        </div>
+                        <button
+                        data-testid="button"
+                        className="bg-[#393D3F] rounded-xl px-4 py-3"
+                        disabled={disabled}
+                        type="submit"
+                        >
+                        Submit
+                        </button>
+                        </form>
+                        </div>
+                        <ToastContainer />
+                    </section>
+                    </div>
             </div>
             <Footer/>
         </div>
@@ -171,8 +177,3 @@ const About = () => {
 }
 
 export default About
-
-// About:
-// Picture
-// Text
-// Email form

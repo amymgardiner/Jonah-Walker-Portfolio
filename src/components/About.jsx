@@ -6,10 +6,15 @@ const About = () => {
     return (
         <div>
             <Navbar/>
-            <div className="main"></div>
+            <div className="main--body"></div>
             <Footer/>
         </div>
     )
 }
 
 export default About
+
+// About:
+// Picture
+// Text
+// Email form

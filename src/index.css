@@ -9,7 +9,7 @@
   --medium-blue: #4F5D75;
   --light-grey: #BFC0C0;
   --light-blue: #546A7B;
-  --teal: #62929E;
+  --teal: #4ecdc4;
   --orange: #EF8354;
   --tan: #C6C5B9;
 }
@@ -50,6 +50,7 @@ body{
   width: 100%;
 }
 
-.main{
+.main--body{
   min-height: 100vh;
+  background: #212529;
 }

@@ -5,13 +5,13 @@
 *{
   --white: #FDFDFF;
   --dark-grey: #393D3F;
-  --dark-blue: #2D3142;
-  --medium-blue: #4F5D75;
+  --dark-grey-blue: #2D3142;
+  --medium-grey-blue: #4F5D75;
   --light-grey: #BFC0C0;
-  --light-blue: #546A7B;
-  --teal: #4ecdc4;
-  --orange: #EF8354;
-  --tan: #C6C5B9;
+  --light-grey-blue: #546A7B;
+  --bright-blue: #00a6fb;
+  --medium-bright-blue: #75d2ff;
+  --light-bright-blue: #90e0ef;
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 /* white background */
 .site--main_button:hover{
   background: rgb(253, 253, 255, 0.7);
-  color: var(--dark-blue);
+  color: var(--dark-grey-blue);
 }
 
 .navbar--link{
@@ -43,7 +43,7 @@ body{
   position: absolute;
   width: 0%;
   bottom: 10px;
-  background-color: var(--teal);
+  background-color: var(--light-bright-blue);
 }
 
 .navbar--link:hover::before{

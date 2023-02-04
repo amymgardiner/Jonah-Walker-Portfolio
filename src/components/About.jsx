@@ -6,7 +6,8 @@ const About = () => {
     return (
         <div>
             <Navbar/>
-            <div className="main--body"></div>
+            <div className="main--body">  
+            </div>
             <Footer/>
         </div>
     )

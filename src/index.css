@@ -46,7 +46,6 @@ body{
 }
 
 .main--body{
-  min-height: 100vh;
   background: var(--dark-grey);
 }
 
@@ -63,4 +62,19 @@ body{
 
 .portfolio--image:hover .portfolio--image_title{
   color: var(--white);
+}
+
+.about--form_button:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--blue);
+}
+
+#notifyToast {
+  color: var(--dark-grey);
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 0.375rem;
+  width: 9.5rem;
+  margin-left: 5rem;
 }

@@ -78,3 +78,47 @@ body{
   width: 9.5rem;
   margin-left: 5rem;
 }
+
+@media only screen and (max-width: 1600px) {
+
+  .site--main_title-name{
+    font-size: 6rem;
+    margin-top: 15%;
+  }
+
+  .site--main_title-description{
+    font-size: 1.875rem;
+  }
+
+  .site--main_button{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .site--main_title-name{
+    font-size: 4.5rem;
+    margin-top: 20%;
+  }
+
+  .site--main_title-description{
+    font-size: 1.5rem;
+  }
+
+  .site--main_button{
+    font-size: 1.25rem;
+    padding: 0.625rem 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  .site--main_button{
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+  }
+
+}

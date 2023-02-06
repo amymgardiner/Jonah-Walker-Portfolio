@@ -49,3 +49,18 @@ body{
   min-height: 100vh;
   background: var(--dark-grey);
 }
+
+.portfolio--image_title{
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: transparent;
+}
+
+.portfolio--image:hover{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.portfolio--image:hover .portfolio--image_title{
+  color: var(--white);
+}

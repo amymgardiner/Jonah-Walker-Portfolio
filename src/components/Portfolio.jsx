@@ -7,7 +7,10 @@ const Portfolio  = () => {
     return (
         <div>
             <Navbar/>
-                <div className="flex flex-col items-center main--body">
+                <div className="flex flex-row items-center main--body">
+                    <div className="flex flex-row">
+                        <div className="portfolio--image"></div>
+                    </div>
                 </div>
             <Footer/>
         </div>

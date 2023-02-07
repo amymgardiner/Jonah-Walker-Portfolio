@@ -69,14 +69,14 @@ const About = () => {
         <div>
             <Navbar/>
             <section className="overflow-hidden main--body">
-                <div className="container flex flex-row ">
-                    <img src={JonahImage} className="max-w-[38.5rem] h-full p-8" alt="Jonah Walker with camera"/>
+                <div className="container flex flex-row main--body_about">
+                    <img src={JonahImage} className="max-w-[38.5rem] h-full p-8 main--body_about-image" alt="Jonah Walker with camera"/>
                     <div className="flex flex-col">
-                        <div className="p-8">
+                        <div className="p-8 main--body_about-text">
                             <h2 className="mb-2 text-2xl font-semibold">Lorem ipsum dolor</h2>
                             <p className="text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
                         </div>
-                        <div className="p-8">
+                        <div className="p-8 main--body_about-contact">
                             <h1 className="mb-2 text-xl text-[#90e0ef]">Contact Me</h1>
                             <div className="about--contact_div">
                             <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
@@ -160,7 +160,7 @@ const About = () => {
                             </div>
                             <button
                             data-testid="button"
-                            className="bg-[#393D3F] rounded-xl px-4 py-3 about--form_button"
+                            className="bg-[#393D3F] rounded-xl px-4 py-3 about--contact_button"
                             disabled={disabled}
                             type="submit"
                             >

@@ -64,7 +64,7 @@ body{
   color: var(--white);
 }
 
-.about--form_button:hover{
+.about--contact_button:hover{
   border-style: solid;
   border-width: 2px;
   border-color: var(--blue);

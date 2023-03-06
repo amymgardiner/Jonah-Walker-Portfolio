@@ -73,11 +73,11 @@ const About = () => {
                     <img src={JonahImage} className="max-w-[38.5rem] h-full p-8 main--body_about-image" alt="Jonah Walker with camera"/>
                     <div className="flex flex-col">
                         <div className="p-8 main--body_about-text">
-                            <h2 className="mb-2 text-2xl font-semibold">Lorem ipsum dolor</h2>
-                            <p className="text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
+                            <h2 className="mb-2 font-serif text-2xl font-semibold">Lorem ipsum dolor</h2>
+                            <p className="font-sans text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
                         </div>
                         <div className="p-8 main--body_about-contact">
-                            <h1 className="mb-2 text-xl text-[#90e0ef]">Contact Me</h1>
+                            <h1 className="mb-2 text-xl text-[#90e0ef] font-serif">Contact Me</h1>
                             <div className="about--contact_div">
                             <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
                             <div className="flex flex-col">
@@ -96,7 +96,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Name"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
                                 ></input>
                                 {errors.name && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.name.message}</span>
@@ -113,7 +113,7 @@ const About = () => {
                                     /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                                 })}
                                 placeholder="Email address"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
                                 ></input>
                                 {errors.email && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">
@@ -137,7 +137,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Subject"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base"
+                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
                                 ></input>
                                 {errors.subject && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.subject.message}</span>
@@ -160,7 +160,7 @@ const About = () => {
                             </div>
                             <button
                             data-testid="button"
-                            className="bg-[#393D3F] rounded-xl px-4 py-3 about--contact_button"
+                            className="bg-[#393D3F] rounded-xl px-4 py-3 about--contact_button font-sans"
                             disabled={disabled}
                             type="submit"
                             >

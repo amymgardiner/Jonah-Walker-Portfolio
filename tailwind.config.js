@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['PT Sans', 'sans-serif'],
+      'serif': ['IM Fell Double Pica', 'serif'],
+    }
   },
   plugins: [],
 }

@@ -18,42 +18,42 @@ const Portfolio  = () => {
                         <div className="flex flex-wrap">
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/Zv89Gnqy-Io" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery1}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Seven Bridges Trail</h2>
                                 </div></Link>
                             </div>
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/p0znG6E5ZYY" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery2}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Great Sand Dunes National Park and Preserve</h2>
                                 </div></Link>
                             </div>
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/ovIIbmeXsxw" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery3}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Monument Rocks</h2>
                                 </div></Link>
                             </div>
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/l7I59jAKask" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery4}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Great Forest Park Balloon Race</h2>
                                 </div></Link>
                             </div>
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/QmYJndRew6E" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery5}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Saturday Barbeque</h2>
                                 </div></Link>
                             </div>
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
                                 <Link to="https://youtu.be/vGBZTUbv9_o" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
-                                    <img alt="gallery" className="block object-cover object-center w-full h-full rounded-lg aspect-video"
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery6}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Castlewood State Park</h2>
                                 </div></Link>

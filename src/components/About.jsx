@@ -96,7 +96,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Name"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
+                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans"
                                 ></input>
                                 {errors.name && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.name.message}</span>
@@ -113,7 +113,7 @@ const About = () => {
                                     /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                                 })}
                                 placeholder="Email address"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
+                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans"
                                 ></input>
                                 {errors.email && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">
@@ -137,7 +137,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Subject"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg text-base font-sans"
+                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans"
                                 ></input>
                                 {errors.subject && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.subject.message}</span>
@@ -152,7 +152,7 @@ const About = () => {
                                     required: true,
                                 })}
                                 placeholder="Message"
-                                className="max-w-[50%] text-[#212529] p-2 rounded-lg"
+                                className="max-w-[50%] text-[#212529] p-2"
                                 ></textarea>
                                 {errors.message && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">Please enter a message</span>
@@ -160,7 +160,7 @@ const About = () => {
                             </div>
                             <button
                             data-testid="button"
-                            className="bg-[#393D3F] rounded-xl px-4 py-3 about--contact_button font-sans"
+                            className="bg-[#393D3F] px-4 py-3 about--contact_button font-sans"
                             disabled={disabled}
                             type="submit"
                             >

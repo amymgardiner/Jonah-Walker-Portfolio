@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'sans': ['PT Sans', 'sans-serif'],
-      'serif': ['IM Fell Double Pica', 'serif'],
+      'serif': ['DM Serif Display', 'serif'],
     }
   },
   plugins: [],

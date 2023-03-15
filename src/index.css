@@ -28,9 +28,11 @@ body{
 
 .navbar{
   flex-direction: row;
+  margin-left: 3rem;
+  margin-right: 6rem;
 }
 
-.linksNav{
+.navbar--links{
   flex-direction: row;
 }
 
@@ -136,24 +138,17 @@ body{
     height: 366px;
   }
 
-  .home--videos_title{
-    flex-direction: column;
-    text-align: center;
+  .footer--title {
+    margin: auto;
   }
 
-  .home--videos_title-description{
-    max-width: 100%;
-    max-width: 680px;
-    margin-left: 0 !important;
+  .footer--links {
+    margin: auto;
   }
 
 }
 
 @media only screen and (max-width: 670px) {
-
-  .home--videos {
-    padding: 2rem;
-  }
 
   iframe{
     width: 100%;
@@ -163,19 +158,15 @@ body{
 
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 570px) {
 
   .navbar{
     flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
 
-  .linksNav{
-    flex-direction: column;
-    margin-top: 0.5rem;
-  }
-
-  .portfolioNav{
-    margin-left: 0rem;
+  .navbar--links{
     margin-top: 0.5rem;
   }
 

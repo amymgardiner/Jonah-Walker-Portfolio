@@ -110,11 +110,34 @@ body{
 
 }
 
+@media only screen and (max-width: 1280px) {
+
+  .form--input {
+    max-width: 100%;
+  }
+
+}
+
 @media only screen and (max-width: 1024px) {
   iframe{
     width: 800px;
     height: 450px;
   }
+
+  .home--videos_description{
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+  .main--body_about {
+    flex-direction: column-reverse;
+  }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -136,6 +159,11 @@ body{
   iframe{
     width: 650px;
     height: 366px;
+  }
+
+  .home--videos_description{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .footer--title {

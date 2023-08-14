@@ -13,6 +13,6 @@ This was a fun project for code practice and I hope you enjoy it!
 
 I used React to build this app. I made sure to follow the React practice of code-splitting by having several components. I used the [react-router-dom](https://www.npmjs.com/package/react-router-dom) library to have the navigation function correctly, so users can get to each individual page.
 
-For styling, I used regular CSS and Tailwind CSS.
+For styling, I used regular CSS and [Tailwind CSS](https://tailwindcss.com/docs/installation).
 
 On the About page, we wanted the form to actually function so potential clients could contact Jonah. To achieve this I used [react-hook-form](https://www.npmjs.com/package/react-hook-form), [react-toastify](https://www.npmjs.com/package/react-toastify), and [emailjs-com](https://www.npmjs.com/package/emailjs-com) libraries and the free [EmailJS](https://www.emailjs.com/) service.

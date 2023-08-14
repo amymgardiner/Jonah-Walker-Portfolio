@@ -12,7 +12,7 @@ const Home = () => {
 
                     <div className="flex flex-col items-center justify-center py-16 my-8 main--body_videos">
                         <div className="flex flex-row justify-center mb-8">
-                            <h2 className="font-serif text-3xl font-bold">Featured Project</h2>
+                            <h2 className="font-serif text-4xl font-bold">Featured Project</h2>
                         </div>
                         <iframe
                         width="1024"
@@ -30,7 +30,7 @@ const Home = () => {
 
                     <div className="flex flex-col items-center justify-center py-16 my-8 main--body_videos-reel">
                         <div className="mb-8">
-                            <h2 className="flex flex-row justify-center font-serif text-5xl font-bold">Reel</h2>
+                            <h2 className="flex flex-row justify-center font-serif text-6xl font-bold">Reel</h2>
                         </div>
                         <iframe
                         width="1024"

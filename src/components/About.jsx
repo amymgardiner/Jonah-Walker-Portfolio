@@ -160,7 +160,7 @@ const About = () => {
                             </div>
                             <button
                             data-testid="button"
-                            className="bg-[#393D3F] px-4 py-3 about--contact_button font-sans"
+                            className="bg-[#393D3F] px-4 py-3 hvr-border-fade font-sans"
                             disabled={disabled}
                             type="submit"
                             >

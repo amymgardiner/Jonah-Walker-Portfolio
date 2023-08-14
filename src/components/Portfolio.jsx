@@ -8,6 +8,9 @@ import Gallery3 from '../assets/img/test screenshot 3.png'
 import Gallery4 from '../assets/img/test screenshot 4.png'
 import Gallery5 from '../assets/img/test screenshot 5.png'
 import Gallery6 from '../assets/img/test screenshot 6.png'
+import Gallery7 from '../assets/img/test screenshot 7.png'
+import Gallery8 from '../assets/img/test screenshot 8.png'
+import Gallery9 from '../assets/img/test screenshot 9.png'
 
 const Portfolio  = () => {
     return (
@@ -56,6 +59,27 @@ const Portfolio  = () => {
                                     <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
                                     src={Gallery6}/>
                                     <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Castlewood State Park</h2>
+                                </div></Link>
+                            </div>
+                            <div className="flex flex-wrap w-1/3 portfolio--gallery">
+                                <Link to="https://youtu.be/5Zed_gZwQEM" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
+                                    src={Gallery7}/>
+                                    <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Graffiti Wall</h2>
+                                </div></Link>
+                            </div>
+                            <div className="flex flex-wrap w-1/3 portfolio--gallery">
+                                <Link to="https://youtu.be/M8rz_Az2ecU" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
+                                    src={Gallery8}/>
+                                    <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Midtown</h2>
+                                </div></Link>
+                            </div>
+                            <div className="flex flex-wrap w-1/3 portfolio--gallery">
+                                <Link to="https://youtu.be/gBhhWfyqolM" target="_blank"><div className="relative w-full p-1 text-center portfolio--image">
+                                    <img alt="gallery" className="block object-cover object-center w-full h-full aspect-video"
+                                    src={Gallery9}/>
+                                    <h2 className="absolute font-sans text-xl top-1/2 left-1/2 portfolio--image_title">Dogtown</h2>
                                 </div></Link>
                             </div>
                         </div>

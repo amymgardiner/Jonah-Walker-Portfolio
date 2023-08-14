@@ -22,7 +22,7 @@ const Home = () => {
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
-                        <p className="text-[#BFC0C0] mt-8 font-sans home--videos_description">In this short film, for Kaldi's Coffee, I take a behind-the-scenes look at the people and vintage machines that bring the 'Tis the Season holiday blend to life each year.</p>
+                        <p className="text-[#BFC0C0] mt-8 font-sans home--videos_description text-base leading-relaxed tracking-wide">In this short film, for Kaldi's Coffee, I take a behind-the-scenes look at the people and vintage machines that bring the 'Tis the Season holiday blend to life each year.</p>
                     </div>
                     
 

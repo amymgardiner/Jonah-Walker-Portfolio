@@ -72,12 +72,14 @@ const About = () => {
                 <div className="flex flex-row main--body_about">
                     <img src={JonahImage} className="sm:max-w-[38.5rem] max-w-[100%] h-full px-2 py-8 sm:px-8 main--body_about-image" alt="Jonah Walker with camera"/>
                     <div className="flex flex-col">
-                        <div className="px-2 py-8 sm:px-8 main--body_about-text">
-                            <h2 className="mb-2 font-serif text-2xl font-semibold">Lorem ipsum dolor</h2>
-                            <p className="font-sans text-base">Suspendisse sit amet dignissim ligula. Praesent eu posuere massa. Aenean nec pulvinar ex. Mauris volutpat sit amet tellus a vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum finibus nunc sit amet ex rutrum placerat.</p>
+                        <div className="px-2 py-8 sm:px-8 main--body_about-text max-w-[80%]">
+                            <h2 className="mb-2 font-serif text-2xl font-semibold">About</h2>
+                            <p className="font-sans text-base leading-relaxed tracking-wide">Meet Jonah Walker, a cinematographer, video editor, and colorist currently serving as the videographer for Kaldi's Coffee Roasting Company in their dynamic marketing department.</p>
+                            <p className="mt-2 font-sans text-base leading-relaxed tracking-wide">Outside of his role, Jonah is a relentless learner, endlessly exploring the nuances of cameras, lenses, mesmerizing color grading techniques, and the art of video editing.</p>
+                            <p className="mt-2 font-sans text-base leading-relaxed tracking-wide">With a sharp eye for detail and a passion for storytelling, Jonah transforms ideas into visually stunning narratives. Ready to bring your vision to life? Reach out today.</p>
                         </div>
                         <div className="px-2 py-8 sm:px-8 main--body_about-contact">
-                            <h1 className="mb-2 text-xl text-[#90e0ef] font-serif">Contact Me</h1>
+                            <h1 className="mb-2 text-xl text-[#90e0ef] font-serif">Let's Connect</h1>
                             <div className="about--contact_div">
                             <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
                             <div className="flex flex-col">
@@ -96,7 +98,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Name"
-                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans form--input"
+                                className="max-w-[70%] text-[#212529] p-2 text-base font-sans form--input"
                                 ></input>
                                 {errors.name && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.name.message}</span>
@@ -113,7 +115,7 @@ const About = () => {
                                     /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                                 })}
                                 placeholder="Email address"
-                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans form--input"
+                                className="max-w-[70%] text-[#212529] p-2 text-base font-sans form--input"
                                 ></input>
                                 {errors.email && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">
@@ -137,7 +139,7 @@ const About = () => {
                                     },
                                 })}
                                 placeholder="Subject"
-                                className="max-w-[50%] text-[#212529] p-2 text-base font-sans form--input"
+                                className="max-w-[70%] text-[#212529] p-2 text-base font-sans form--input"
                                 ></input>
                                 {errors.subject && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">{errors.subject.message}</span>
@@ -152,7 +154,7 @@ const About = () => {
                                     required: true,
                                 })}
                                 placeholder="Message"
-                                className="max-w-[50%] text-[#212529] p-2 form--input"
+                                className="max-w-[70%] text-[#212529] p-2 form--input"
                                 ></textarea>
                                 {errors.message && (
                                     <span className="errorMessage text-[#BFC0C0] text-base">Please enter a message</span>

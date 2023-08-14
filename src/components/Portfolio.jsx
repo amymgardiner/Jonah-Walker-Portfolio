@@ -13,7 +13,7 @@ const Portfolio  = () => {
     return (
         <div>
             <Navbar/>
-                <section className="overflow-hidden main--body">
+                <section className="px-4 overflow-hidden main--body">
                     <div className="container px-5 py-2 mx-auto">
                         <div className="flex flex-wrap">
                             <div className="flex flex-wrap w-1/3 portfolio--gallery">
